@@ -113,7 +113,7 @@
 	else
 		$forgotpath=qa_path('forgot', array('e' => $inemailhandle));
 	
-	$forgothtml='<a href="'.qa_html($forgotpath).'">'.qa_lang_html('users/forgot_link').'</a>';
+	$forgothtml='<a href="'.qa_html($forgotpath).'" style="font-size: 15px;">'.qa_lang_html('users/forgot_link').'</a>';
 	
 	$qa_content['form']=array(
 		'tags' => 'method="post" action="'.qa_self_html().'"',
@@ -172,7 +172,7 @@ transition:0.5s ease; "',
 			'remember' => array(
 				'type' => 'checkbox',
 				'label' => qa_lang_html('users/remember_label'),
-				'tags' => 'name="remember"',
+				'tags' => 'name="remember" style="text-align:left"',
 				'value' => @$inremember ? true : false,
 			),
 		),
@@ -180,7 +180,7 @@ transition:0.5s ease; "',
 		'buttons' => array(
 			'login' => array(
 				'label' => qa_lang_html('users/login_button'),
-				'tags' => 'style="height:40px; width:250px; color:#0040FF"',
+				'tags' => 'style="height:40px; width:290px; color:#0040FF; background: #0dd39d; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;"',
 			),
 		),
 		
