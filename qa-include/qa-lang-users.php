@@ -138,8 +138,5 @@
 		'website' => 'Website',
 		'x_ago_from_y' => '^1 ago from ^2',
 	);
-	
 
-/*
-	Omit PHP closing tag to help avoid accidental output
-*/
+/* 	Omit PHP closing tag to help avoid accidental output */
