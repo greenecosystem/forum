@@ -1,0 +1,9 @@
+div.bbcode_quote { margin: 0.5em 0 0 1.3em; }
+div.bbcode_quote_head { font-family: serif; font-size:10pt; color: #000; font-weight: bold; padding: 0.25em 0.25em; }
+div.bbcode_quote_body { border: 1px dotted #DB9225;  background-color: #FFFCCC; color: #000; padding: 0.25em 0.25em 0.25em 0.25em; }
+
+div.bbcode_code { margin: 0.5em 0 0 1.3em; }
+div.bbcode_code_head { font-family: serif; font-size:10pt; color: #000; font-weight: bold; padding: 0.25em 0.25em; }
+
+pre.bbcode_code_body { background-color: #FFFCEC; margin: 0px; padding: 6px; border: 1px inset; height: 178px; overflow: auto;}
+div.bbcode_code_body  { background-color: #FFFCEC; color: #000; padding: 0.25em 0.25em 0.25em 0.25em;}

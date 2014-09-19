@@ -1,0 +1,32 @@
+/*
+*	Q2AM User Pie Chart
+*
+*	Add pie chart for questions, answers and comment statastics for the user.
+*	File: Stylesheet
+*	
+*	@author			Q2A Market
+*	@category		Plugin
+*	@Version: 		1.0
+*	
+*	@Q2A Version	1.5.3
+*
+*	Modifying this file may affect look and position of next and previous link. You may add additional class to customize look and feel.
+*/
+
+table.qa-user-qac-static{
+	text-align: center;
+}
+table.qa-user-qac-static td{
+	padding:1px 4px;
+	color:#666;
+	line-height: normal;
+	border: 1px solid #bfbfbf;
+	font-size: 11px;
+}
+table.qa-user-qac-static td:nth-child(odd){
+	background: #c5c5c5;
+	color:#333;
+}
+ table.qa-user-qac-static td:nth-child(even){
+ 	background: #e5e5e5;
+ }
