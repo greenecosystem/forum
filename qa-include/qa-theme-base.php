@@ -438,7 +438,7 @@
 		function nav_user_search()
 		{
 			$this->nav('user');
-			$this->search();
+			/* $this->search(); */
 		}
 		
 		function nav_main_sub()
@@ -632,6 +632,9 @@
 			$content=$this->content;
 
 			$this->output('<div class="qa-main'.(@$this->content['hidden'] ? ' qa-main-hidden' : '').'">');
+			
+            /* greenecosystem: moved search into main window */
+            $this->search();
 			
 			$this->widgets('main', 'top');
 			
