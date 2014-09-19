@@ -156,13 +156,15 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 
 .qa-search-field {
 
+height:31px; width:400px; color:#000000; background: #FFFFFF; opacity: 1;
+
 margin:20px 1px 1px 200px;
-border-radius:5px;
-background: #FFFFFF;
+/* border-radius:5px; */
+/*background: #FFFFFF; */
 font-family:Comic Sans MS, cursive, sans-serif;
-height:27px;
+/* height:27px; */
 border:none;
-color:#9999;                       
+/* color:#9999; */               
 box-shadow:0 1px 2px rgba(34, 25, 25, 0.4);
 font-size:15px;
 -webkit-transition:0.5s ease;
@@ -170,17 +172,18 @@ font-size:15px;
 -o-transition:0.5s ease;
 -ms-transition:0.5s ease;
 transition:0.5s ease;
-
-    width:12em;
-    margin-right:2px;}
+    }
 
 /* Main, sub and category navigation */
 
 .qa-nav-main {clear:both;}
 .qa-nav-main-list {font-size:16px; list-style:none; padding:0; margin:0;}
 .qa-nav-main-item,.qa-nav-main-item-opp {border-top:1px solid #1f2e2b; border-left:1px solid #1f2e2b; border-right:1px solid #1f2e2b;}
+
 .qa-nav-main-item {float:left; margin-right:4px;}
+
 .qa-nav-main-item-opp {float:right; margin-left:4px;}
+
 .qa-nav-main-link {color:#FFF; display:block; padding:6px 10px; background:#293d39;}
 .qa-nav-main-link:hover, .qa-nav-main-selected {background:#396e63; text-decoration:none;}
 .qa-nav-main-hot .qa-nav-main-link {background:#f33;}
