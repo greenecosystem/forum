@@ -201,9 +201,11 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
     }
 */
 
+/* changes size & color of login table */
 .qa-form-tall-table {
 
-    background:#fff;
+    /*background:#fff; */
+    background:#F2F2F2;
     border: 2px solid #FAFAFA;
     box-shadow: 5px 0 15px -4px rgba(34, 25, 25, 0.4), -5px 0 8px -4px rgba(34, 25, 25, 0.4);
     width:350px;
