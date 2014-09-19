@@ -140,7 +140,9 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 .qa-logo {float:left; margin-bottom:16px; font-size:40px; font-weight:bold; color:#293d39;}
 .qa-logo-link, .qa-logo-link:hover {color:#293d39;}
 
-.qa-nav-user {float:right; font-size:14px; color:#293D39; white-space:nowrap;}
+/*.qa-nav-user {float:right; font-size:14px; color:#293D39; white-space:nowrap;} */
+.qa-nav-user {float:right; font-size:14px; color:#2164FE; white-space:nowrap;}
+
 .qa-nav-user-list {list-style:none; padding:0; margin:0; display:inline;}
 .qa-nav-user-item {display:inline; margin-left:12px; font-weight:bold;}
 .qa-nav-user-link {color:#293d39;}
@@ -177,7 +179,7 @@ transition:0.5s ease;
 /* Main, sub and category navigation */
 
 .qa-nav-main {clear:both;}
-.qa-nav-main-list {font-size:16px; list-style:none; padding:0; margin:0;}
+.qa-nav-main-list {font-size:13px; list-style:none; padding:0; margin:0;}
 
 /*.qa-nav-main-item,.qa-nav-main-item-opp {border-top:1px solid #1f2e2b; border-left:1px solid #1f2e2b; border-right:1px solid #1f2e2b;} */
 
@@ -558,7 +560,9 @@ transition:0.5s ease;
 
 /* Classes in HTML passed to theme class */
 
-.qa-user-link {color:#079075; font-weight:bold;}
+/* .qa-user-link {color:#079075; font-weight:bold;} */
+.qa-user-link {color:#FE642E; font-weight:bold;}
+
 .qa-category-link {color:#473A9F; font-weight:bold;}
 .qa-tag-link {font-size:11px; color:#FFF !important; font-weight:bold; padding:3px 5px; margin-bottom:3px; background-color:#658296; display:-moz-inline-stack; display:inline-block; vertical-align:middle; text-decoration:none !important;} /* inline-block for IE, -moz-inline-stack for early FF */
 	.qa-tag-link:hover {text-decoration:none; background-color:#235272;}
