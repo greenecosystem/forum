@@ -268,6 +268,7 @@ transition:0.5s ease;
     font-size:13px;
     font-weight:bold;
     font-family:Comic Sans MS, cursive, sans-serif;
+    text-align:center;
     }
 
 .qa-form-tall-data {
@@ -288,7 +289,6 @@ transition:0.5s ease;
     border:1px solid #658296;}
 
 .qa-form-tall-checkbox {
-    float:left; 
     margin-right:6px;}
 
 .qa-form-tall-image {
@@ -314,6 +314,7 @@ transition:0.5s ease;
 .qa-form-tall-note {
     margin-top:6px;
     font-family:Comic Sans MS, cursive, sans-serif;
+    text-align:center;
     }
 
 .qa-form-tall-note a {color:#293D39; text-decoration:underline;}
