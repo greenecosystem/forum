@@ -125,21 +125,7 @@
 		'fields' => array(
 			'email_handle' => array(
 				/* 'label' => qa_opt('allow_login_email_only') ? qa_lang_html('users/email_label') : qa_lang_html('users/email_handle_label'), */
-				'tags' => 'name="emailhandle" id="emailhandle" placeholder="Email" style="display:block;
-margin:0px auto 1px;
-border-radius:5px;
-background: #FFFFFF;
-font-family:Comic Sans MS, cursive, sans-serif;
-width:85%;
-border:none;
-color:#9999;                       
-box-shadow:0 1px 2px rgba(34, 25, 25, 0.4);
-font-size:15px;
--webkit-transition:0.5s ease;
--moz-transition:0.5s ease;
--o-transition:0.5s ease;
--ms-transition:0.5s ease;
-transition:0.5s ease; "',
+				'tags' => 'name="emailhandle" id="emailhandle" placeholder="Email"',
 
 				'value' => qa_html(@$inemailhandle),
 				'error' => qa_html(@$errors['emailhandle']),
@@ -148,21 +134,7 @@ transition:0.5s ease; "',
 			'password' => array(
 				'type' => 'password',
 				/*'label' => qa_lang_html('users/password_label'), */
-				'tags' => 'name="password" id="password" placeholder="password" style="display:block;
-margin:0px auto 1px;
-border-radius:5px;
-background: #FFFFFF;
-font-family:Comic Sans MS, cursive, sans-serif;
-width:85%;
-border:none;
-color:#9999;                       
-box-shadow:0 1px 2px rgba(34, 25, 25, 0.4);
-font-size:15px;
--webkit-transition:0.5s ease;
--moz-transition:0.5s ease;
--o-transition:0.5s ease;
--ms-transition:0.5s ease;
-transition:0.5s ease; "',
+				'tags' => 'name="password" id="password" placeholder="password"',
 
 				'value' => qa_html(@$inpassword),
 				'error' => empty($errors['password']) ? '' : (qa_html(@$errors['password']).' - '.$forgothtml),

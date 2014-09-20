@@ -268,7 +268,7 @@ transition:0.5s ease;
     font-size:13px;
     font-weight:bold;
     font-family:Comic Sans MS, cursive, sans-serif;
-    text-align:center;
+    text-align:left;
     }
 
 .qa-form-tall-data {
@@ -281,15 +281,33 @@ transition:0.5s ease;
 
 /* changes login input window */
 .qa-form-tall-text {
-    width:250px; 
-    border:1px solid #658296;}
+    width:290px; 
+    border:1px solid #658296;
+display:block;
+margin:0px auto 1px;
+border-radius:5px;
+background: #FFFFFF;
+font-family:Comic Sans MS, cursive, sans-serif;
+border:none;
+color:#9999;                       
+box-shadow:0 1px 2px rgba(34, 25, 25, 0.4);
+font-size:15px;
+-webkit-transition:0.5s ease;
+-moz-transition:0.5s ease;
+-o-transition:0.5s ease;
+-ms-transition:0.5s ease;
+transition:0.5s ease;
+
+}
 
 .qa-form-tall-number {
     width:48px; 
     border:1px solid #658296;}
 
 .qa-form-tall-checkbox {
-    margin-right:6px;}
+    margin-right:6px;
+    text-align:center;
+    }
 
 .qa-form-tall-image {
     text-align:center;
