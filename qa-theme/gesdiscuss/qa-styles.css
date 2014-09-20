@@ -184,7 +184,9 @@ transition:0.5s ease;
 
 /* Main, sub and category navigation */
 
-.qa-nav-main {clear:both;}
+.qa-nav-main {
+    clear:both;
+    margin-bottom:1px}
 .qa-nav-main-list {font-size:13px; list-style:none; padding:0; margin:0;}
 
 /*.qa-nav-main-item,.qa-nav-main-item-opp {border-top:1px solid #1f2e2b; border-left:1px solid #1f2e2b; border-right:1px solid #1f2e2b;} */
