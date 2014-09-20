@@ -152,7 +152,7 @@
 		'buttons' => array(
 			'login' => array(
 				'label' => qa_lang_html('users/login_button'),
-				'tags' => 'style="height:40px; width:290px; color:#FFF; background: #0dd39d; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;"',
+				'tags' => 'style="height:40px; width:290px; color:#FFF; background: #4D90FE; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;"',
 			),
 		),
 		

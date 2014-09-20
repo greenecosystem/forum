@@ -482,7 +482,7 @@
 		
 		function search_button($search)
 		{
-			$this->output('<input type="submit" value="'.$search['button_label'].'" style="height:40px; width:90px; color:#FFF; background: #0dd39d; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;"  class="qa-search-button"/>');
+			$this->output('<input type="submit" value="'.$search['button_label'].'" style="height:40px; width:90px; color:#FFF; background: #4D90FE; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;"  class="qa-search-button"/>');
 		}
 		
 		function nav($navtype, $level=null)

@@ -150,7 +150,7 @@
             /* greenecosystem : disable lable & add placeholder */
 			'handle' => array(
 			/*	'label' => qa_lang_html('users/handle_label'), */
-				'tags' => 'name="handle" id="handle" placeholder="Username"',
+				'tags' => 'name="handle" id="handle" placeholder="Username" style="width:290px;"',
 				'value' => qa_html(@$inhandle),
 				'error' => qa_html(@$errors['handle']),
 			),
@@ -158,14 +158,14 @@
 			'password' => array(
 				'type' => 'password',
 			/*	'label' => qa_lang_html('users/password_label'), */
-				'tags' => 'name="password" id="password" placeholder="password"',
+				'tags' => 'name="password" id="password" placeholder="password" style="width:290px;"',
 				'value' => qa_html(@$inpassword),
 				'error' => qa_html(@$errors['password']),
 			),
 
 			'email' => array(
 			/*	'label' => qa_lang_html('users/email_label'), */
-				'tags' => 'name="email" id="email" placeholder="Email"',
+				'tags' => 'name="email" id="email" placeholder="Email" style="width:290px;"',
 				'value' => qa_html(@$inemail),
 				'note' => qa_opt('email_privacy'),
 				'error' => qa_html(@$errors['email']),
@@ -174,7 +174,7 @@
 		
 		'buttons' => array(
 			'register' => array(
-				'tags' => 'style="height:40px; width:290px; color:#FFF; background: #0dd39d; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;" onclick="qa_show_waiting_after(this, false);"',
+				'tags' => 'style="height:40px; width:290px; color:#FFF; background: #4D90FE; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;" onclick="qa_show_waiting_after(this, false);"',
 				'label' => qa_lang_html('users/register_button'),
 			),
 		),
