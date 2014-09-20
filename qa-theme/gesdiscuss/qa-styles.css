@@ -200,9 +200,10 @@ transition:0.5s ease;
 .qa-nav-sub {clear:both; float:left; padding-top:3px;}
 .qa-nav-sub-list {font-size:12px; list-style:none; padding:0; margin:0;}
 .qa-nav-sub-item {float:left; margin-right:2px;margin-bottom:2px;}
-.qa-nav-sub-link {background:#cfd1c4; color:#396e63; font-weight:bold; padding:5px 8px; display:block;}
-.qa-nav-sub-link:hover, .qa-nav-sub-selected {background:#9cdbce; text-decoration:none;}
-.qa-nav-sub-link.qa-nav-selected {background:#396e63;}
+
+.qa-nav-sub-link {background:#A4A4A4; color:#FFF; font-weight:bold; padding:5px 8px; display:block;}
+.qa-nav-sub-link:hover, .qa-nav-sub-selected {background:#0DD39D; text-decoration:none;}
+.qa-nav-sub-link.qa-nav-selected {background:#0DD39D;}
 
 .qa-nav-cat {margin:24px 0;}
 .qa-nav-cat-list {list-style:none; padding:0; margin:0;}
