@@ -89,7 +89,13 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 
 .qa-favoriting {float:right; padding-right:48px; padding-top:4px;}
 
-.qa-favorite-button,.qa-unfavorite-button {background:url(favorite-plus.gif) no-repeat; border:0; height:26px; width:26px;}
+.qa-favorite-button,.qa-unfavorite-button {
+    background:url(images/favorite-heart.png) no-repeat;
+    border:0;
+    height:24px;
+    width:24px;
+    }
+
 	.qa-favorite-button {background-position: 0 -26px;}
 	.qa-favorite-button:hover {background-position: 0 0px;}
 	.qa-unfavorite-button {background-position: 0 -52px;}
@@ -584,12 +590,21 @@ transition:0.5s ease;
 	.qa-tag-link:hover {text-decoration:none; background-color:#0DD39D;}
 .qa-avatar-image {border:0; vertical-align:middle;}
 .qa-avatar-link,.qa-avatar-link:hover {text-decoration:none;}
-.qa-favorite-image {background:url(favorite-plus.gif) no-repeat; background-position: 0 -26px; border:0; margin:2px; height:26px; width:26px; vertical-align:middle; display:inline-block;}
+
+.qa-favorite-image {
+    background:url(images/favorite-heart.png) no-repeat;
+    background-position: 0 -24px;
+    border:0;
+    margin:2px;
+    height:24px;
+    width:24px;
+    vertical-align:middle;
+    display:inline-block;}
 
 /* Favorited items */
 
-.qa-q-favorited .qa-q-item-title a, .qa-tag-favorited, .qa-cat-favorited, .qa-user-favorited, .qa-nav-cat-favorited, .qa-browse-cat-favorited {background-image:url(favorite-icon-14x14.gif); background-repeat: no-repeat;}
-.qa-cat-parent-favorited {background-image:url(favorite-light-icon-14x14.gif); background-repeat: no-repeat;}
+.qa-q-favorited .qa-q-item-title a, .qa-tag-favorited, .qa-cat-favorited, .qa-user-favorited, .qa-nav-cat-favorited, .qa-browse-cat-favorited {background-image:url(images/favorite-icon-15x15.png); background-repeat: no-repeat;}
+.qa-cat-parent-favorited {background-image:url(images/favorite-light-icon-15x15.png); background-repeat: no-repeat;}
 .qa-q-favorited .qa-q-item-title a, .qa-nav-cat-favorited, .qa-browse-cat-favorited {background-position: left center; padding-left:18px;}
 .qa-tag-favorited {background-position: 3px center; padding-left:20px;}
 .qa-cat-favorited, .qa-cat-parent-favorited, .qa-user-favorited {background-position: left center; padding-left:17px;}
