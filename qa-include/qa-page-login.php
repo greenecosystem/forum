@@ -144,7 +144,7 @@
 			'remember' => array(
 				'type' => 'checkbox',
 				'label' => qa_lang_html('users/remember_label'),
-				'tags' => 'name="remember" style="text-align:left"',
+				'tags' => 'name="remember"',
 				'value' => @$inremember ? true : false,
 			),
 		),
