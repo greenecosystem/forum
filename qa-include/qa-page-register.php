@@ -174,7 +174,7 @@
 		
 		'buttons' => array(
 			'register' => array(
-				'tags' => 'onclick="qa_show_waiting_after(this, false);"',
+				'tags' => 'style="height:40px; width:290px; color:#FFF; background: #0dd39d; opacity: 1; font-family:Comic Sans MS, cursive, sans-serif; font-size: 15px;" onclick="qa_show_waiting_after(this, false);"',
 				'label' => qa_lang_html('users/register_button'),
 			),
 		),
