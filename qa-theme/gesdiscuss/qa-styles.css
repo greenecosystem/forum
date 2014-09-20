@@ -150,7 +150,17 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
     }
 
 .qa-main-hidden h1 {color:#999;}
-.qa-footer {clear:both; background:#293D39; color:#FFF; font-size:10px; padding:12px;}
+
+.qa-footer {
+    clear:both;
+    background:#C9E38B;
+    color:#FFF;
+    font-size:10px;
+    padding:12px;}
+
+.qa-footer:hover {
+    background:#76AF4C;
+}
 * html .qa-footer {padding-top:6px;} /* IE6 */
 
 /* Widget wrappers */
