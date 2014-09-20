@@ -108,10 +108,29 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 /* Page sections */
 
 .qa-header {padding:10px 20px 0 20px; border-bottom:2px solid #293d39;}
-.qa-sidepanel {float:right; width:176px; margin-right:18px;}
+
+/* side panel changed : greenecosystem*/
+.qa-sidepanel {
+/*    float:right;
+    width:176px;
+    margin-right:18px; */
+
+    background:#F2F2F2;
+    border: 2px solid #FAFAFA;
+    box-shadow: 5px 0 15px -4px rgba(34, 25, 25, 0.4), -5px 0 8px -4px rgba(34, 25, 25, 0.4);
+    width:176px;
+    height:auto;
+    margin:0 auto;
+    margin-right:18px;
+    float:right;
+}
+
 * html .qa-sidepanel {margin-right:10px;} /* IE6 */
+
 .qa-sidebar {padding:12px; font-size:14px; background:#f5e4c3; border:1px solid #f3c772; margin:24px 0;}
+
 .qa-feed {background:url(feed-icon-14x14.png) no-repeat left top; padding-left:20px; height:16px; margin:24px 0;}
+
 .qa-feed-link {font-size:10px; color:#666;}
 
 /* changes login window text & size */
