@@ -43,7 +43,10 @@ body {
     font-family:Comic Sans MS, cursive, sans-serif;
     }
 
-body,td,input,textarea {font-size:12px; font-family:Comic Sans MS, cursive, sans-serif;}
+body,td,input,textarea {font-size:14px;
+    font-family:Comic Sans MS, cursive, sans-serif;
+    color:#545454;
+    }
 
 a:link,a:active,a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
@@ -127,7 +130,9 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 
 * html .qa-sidepanel {margin-right:10px;} /* IE6 */
 
-.qa-sidebar {padding:12px; font-size:14px; background:#f5e4c3; border:1px solid #f3c772; margin:24px 0;}
+/* greenecosystem: remove background of sidebar to make it seemless color */
+/* .qa-sidebar {padding:12px; font-size:14px; background:#f5e4c3; border:1px solid #f3c772; margin:24px 0;} */
+.qa-sidebar {padding:12px; font-size:14px; margin:24px 0;}
 
 .qa-feed {background:url(feed-icon-14x14.png) no-repeat left top; padding-left:20px; height:16px; margin:24px 0;}
 
@@ -327,7 +332,7 @@ transition:0.5s ease;
 
 .qa-form-tall-checkbox {
     margin-right:6px;
-    margin-left:220px;
+    margin-left:100px;
     text-align:center;
     }
 
@@ -453,9 +458,22 @@ transition:0.5s ease;
 
 .qa-q-item-buttons {text-align:right; clear:both;}
 
-.qa-suggest-next {font-size:14px; padding:0.5em 0; text-align:left; clear:both;}
-	.qa-suggest-next a {border:1px solid #1f2e2b; color:#fff; padding:3px 6px; background:#293d39; margin:0 2px;}
-	.qa-suggest-next a:hover {color:#fff; background:#396e63; text-decoration:none;}
+.qa-suggest-next {
+    font-size:14px;
+    padding:0.5em 0;
+    text-align:left;
+    clear:both;}
+	.qa-suggest-next a {
+        border:1px solid #1f2e2b;
+        color:#fff;
+        padding:3px 6px;
+        background:#0DD39D;
+        margin:0 2px;}
+
+	.qa-suggest-next a:hover {
+        color:#fff;
+        background:#4D90FE;
+        text-decoration:none;}
 
 /* Votes */
 
@@ -682,10 +700,22 @@ transition:0.5s ease;
 .qa-browse-cat-list-2 {font-size:14px;}
 .qa-browse-cat-list-3 {font-size:12px;}
 .qa-browse-cat-list-4 {font-size:10px;}
-.qa-browse-cat-item {margin:0.5em 0; font-weight:bold; color:#000;}
+
+.qa-browse-cat-item {
+    margin:0.5em 0;
+    font-weight:bold;
+    color:#000;
+    font-size:15px;}
+
 .qa-browse-cat-closed {list-style:disc;}
 .qa-browse-cat-open {list-style:circle;}
-.qa-browse-cat-link {font-weight:bold; text-decoration:none; color:#000;}
+
+.qa-browse-cat-link {
+/* remove bold: greenecosystem */
+/*    font-weight:bold; */
+    text-decoration:none;
+    color:#000;}
+
 .qa-browse-cat-note {font-weight:normal; font-size:85%; color:#444;}
 	.qa-browse-cat-note a {color:#473A9F;}
 
