@@ -125,7 +125,7 @@
 		'fields' => array(
 			'email_handle' => array(
 				/* 'label' => qa_opt('allow_login_email_only') ? qa_lang_html('users/email_label') : qa_lang_html('users/email_handle_label'), */
-				'tags' => 'name="emailhandle" id="emailhandle" placeholder="Email"',
+				'tags' => 'name="emailhandle" id="emailhandle" placeholder="Email" style="width:290px;"',
 
 				'value' => qa_html(@$inemailhandle),
 				'error' => qa_html(@$errors['emailhandle']),
@@ -134,7 +134,7 @@
 			'password' => array(
 				'type' => 'password',
 				/*'label' => qa_lang_html('users/password_label'), */
-				'tags' => 'name="password" id="password" placeholder="password"',
+				'tags' => 'name="password" id="password" placeholder="password" style="width:290px;"',
 
 				'value' => qa_html(@$inpassword),
 				'error' => empty($errors['password']) ? '' : (qa_html(@$errors['password']).' - '.$forgothtml),
