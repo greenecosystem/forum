@@ -386,50 +386,210 @@ transition:0.5s ease;
 
 /* Votes */
 
-.qa-voting {background:#b7e3da; border:1px solid #62847d; margin-right:16px; float:left; height:42px; overflow:hidden; padding:18px 0;}
-.qa-vote-buttons {float:left; width:18px; padding-left:12px;}
+.qa-voting {
+    background:#e7f7ff;
+    border:1px solid #c5d6df;
+    float:left;
+    width:60px;
+    height:60px;
+    margin-right:5px;
+    padding:0;
+    border-radius: 3px;
+}
+.qa-vote-buttons {
+    position:relative;
+    height:60px;
+    width:16px;
+    float:left;
+}
 
-.qa-vote-one-button {margin:12px 0;}
-.qa-vote-second-button {margin-top:12px;}
+.qa-vote-up-button,.qa-vote-down-button,.qa-vote-one-button{
+    text-indent:9999px;
+}
+.qa-q-list-vote-disabled .qa-vote-buttons {display:none;}
+.qa-vote-up-button,.qa-vote-up-disabled {
+    background:url(images/vote-buttons.png) no-repeat;
+    border:0;
+    color:#f1c96b;
+    font-size:1px;
+    height:20px;
+    width:16px;
+}
+.qa-vote-up-button {
+    background-position:0 0;
+    color:#f1c96b;
+}
+.qa-vote-up-disabled {
+    background-position:0 -80px;
+    color:#CCC;
+}
+.qa-vote-up-button:hover {
+    background-position:0 -20px;
+    color:#f1c96b;
+}
 
-.qa-vote-up-button,.qa-vote-up-disabled {background:url(vote-buttons.gif) no-repeat; border:0; font-size:1px; height:15px; width:17px;}
-	.qa-vote-up-button {background-position:0 0; color:#38544e;}
-	.qa-vote-up-disabled {background-position:0 -60px; color:#38544e;}
-	.qa-vote-up-button:hover {background-position:0 -15px; color:#65968e;}
+.qa-vote-down-button,.qa-vote-down-disabled {
+    background:url(images/vote-buttons.png) no-repeat;
+    border:0;
+    color:#f1c96b;
+    font-size:1px;
+    height:20px;
+    width:16px;
+}
+.qa-vote-down-button {
+    background-position:-16px 0;
+    color:#f1c96b;
+}
+.qa-vote-down-disabled {
+    background-position:-16px -80px;
+    color:#CCC;
+}
+.qa-vote-down-button:hover {
+    background-position:-16px -20px;
+    color:#f1c96b;
+}
+.qa-voted-up-button {
+    background:url(images/vote-buttons.png);
+    border:0;
+    color:#f1c96b;
+    font-size:1px;
+    height:20px;
+    width:16px;
+}
+.qa-voted-up-button {
+    background-position:0 -40px;
+    color:#f1c96b;
+}
 
-.qa-vote-down-button,.qa-vote-down-disabled {background:url(vote-buttons.gif) no-repeat; border:0; font-size:1px; height:15px; width:17px;}
-	.qa-vote-down-button {background-position:-17px 0; color:#38544e;}
-	.qa-vote-down-disabled {background-position:-17px -60px; color:#38544e;}
-	.qa-vote-down-button:hover {background-position:-17px -15px; color:#65968e;}
-	
-.qa-voted-up-button {background:url(vote-buttons.gif) no-repeat; border:0; font-size:1px; height:15px; width:17px;}
-	.qa-voted-up-button {background-position:0 -30px; color:#f3cb7f;}
-	.qa-voted-up-button:hover {background-position:0 -45px; color:#f3cb7f;}
+.qa-voted-up-button:hover {
+    background-position:0 -60px;
+    color:#f1c96b;
+}
+.qa-voted-down-button {
+    background:url(images/vote-buttons.png);
+    border:0;
+    color:#f1c96b;
+    font-size:1px;
+    height:20px;
+    width:16px;
+}
+.qa-voted-down-button {
+    background-position:-16px -40px;
+    color:#f1c96b;
+}
+.qa-voted-down-button:hover {
+    background-position:-16px -60px;
+    color:#f1c96b;
+}
+.qa-vote-one-button {
+    position:absolute;
+    left:2px;
+    top:20px;
+}
 
-.qa-voted-down-button {background:url(vote-buttons.gif) no-repeat; border:0; font-size:1px; height:15px; width:17px; margin:12px 0;}
-	.qa-voted-down-button {background-position:-17px -30px; color:#f3cb7f;}
-	.qa-voted-down-button:hover {background-position:-17px -45px; color:#f3cb7f;}
+.qa-vote-first-button {
+    position:absolute;
+    left:2px;
+    top:6px;
+}
+.qa-vote-second-button {
+    position:absolute;
+    left:2px;
+    bottom:6px;
+}
 
-.qa-vote-count {float:left; text-align:center;}
+/* .qa-vote-count {float:left; text-align:center;} */
 
-.qa-netvote-count {width:60px; display:block;}
-.qa-netvote-count-data {padding-top:1px; font-size:20px; font-weight:bold; display:block;}
-.qa-netvote-count-pad {font-size:11px;}
-
-.qa-upvote-count,.qa-downvote-count {width:48px; height:27px; position:relative; top:-4px; display:block;}
-.qa-upvote-count-data,.qa-downvote-count-data {font-size:18px; font-weight:bold; display:inline;}
-.qa-upvote-count-pad,.qa-downvote-count-pad {font-size:9px; display:none;}
+.qa-netvote-count {
+    text-align:center;
+    display:block;
+}
+.qa-netvote-count-data {
+    font-size:20px;
+    line-height:24px;
+    font-weight:700;
+    display:block;
+    margin-top:10px;
+    overflow:hidden;
+}
+.qa-netvote-count-pad {
+    font-size:11px;
+}
+/* separate vote buttons counter */
+.qa-upvote-count,
+.qa-downvote-count {
+    text-align:center;
+    display:block;
+}
+.qa-upvote-count-data,
+.qa-downvote-count-data {
+    font-size:18px;
+    font-weight:700;
+    display:block;
+    line-height: 18px
+}
+.qa-upvote-count-pad,
+.qa-downvote-count-pad {
+    font-size:11px;
+    line-height: 11px;
+    color: #9DA8AD;
+}
 
 /* Answers and views count */
+.qa-a-count {
+    background:#eafff4;
+    border:1px solid #c1daa6;
+    float:left;
+    width:60px;
+    height:60px;
+    text-align:center;
+    margin-right:5px;
+    padding:0;
+    border-radius: 3px;
+}
+.qa-a-count-zero{
+    background:#ffe9d5;
+    border:1px solid #ffd196;
+}
+.qa-a-count-selected{
+    background:#d9f5bb;
+    border:1px solid #c1daa6;
+}
 
-.qa-a-count {background:#f7cd7d; border:1px solid #d6ae64; text-align:center; width:60px; height:42px; overflow:hidden; float:left; padding:18px 0; margin-right:16px;}
-.qa-a-count-data {font-size:24px; font-weight:bold; display:block;}
-.qa-a-count-pad {font-size:11px;}
+.qa-a-count-data {
+    font-size:20px;
+    line-height:24px;
+    font-weight:700;
+    display:block;
+    margin-top:10px;
+}
+.qa-a-count-pad {
+    font-size:11px;
+}
+.qa-view-count {
+    float:left;
+    background:#fff;
+    float:left;
+    width:60px;
+    height:60px;
+    text-align:center;
+    margin-right:5px;
+    padding:0;
+    border:1px solid #ddd;
+    overflow:hidden;
+    border-radius: 3px;
+}
+.qa-view-count-data {
+    font-size:20px;
+    line-height:24px;
+    font-weight:700;
+    display:block;
+    margin-top:10px;
+}
 
-.qa-view-count {float:right; font-size:11px; color:#8F5EA3;}
-.qa-q-item-main .qa-view-count {margin:3px 10px 0 20px;}
-.qa-q-view-main .qa-view-count {margin:0 0 6px 6px;}
-.qa-view-count-data {font-weight:bold;}
+.qa-view-count-pad{
+    font-size:11px;
+}
 
 /* Tags, users and categories */
 
