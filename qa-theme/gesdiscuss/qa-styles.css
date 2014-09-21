@@ -471,9 +471,19 @@ transition:0.5s ease;
 
 /* Standard form (basic version - buttons only) */
 
-.qa-form-basic-button {background:none repeat scroll 0 0 #293D39; border:1px solid #293D39; margin:4px 4px 4px 0; padding:3px 4px; vertical-align:middle;}
+.qa-form-basic-button {
+    background:none repeat scroll 0 0 #4D90FE;
+    border:1px solid #FFF;
+    margin:4px 4px 4px 0;
+    padding:3px 4px;
+    vertical-align:middle;}
+
 	.qa-form-basic-button {color:#FFF;}
-	.qa-form-basic-button:hover {background:#396E63; border:1px solid #293D39; color:#FFF;}
+
+	.qa-form-basic-button:hover {
+        background:#0DD39D;
+        border:1px solid #FFF;
+        color:#FFF;}
 
 .qa-form-basic-note {font-size:11px;}
 
