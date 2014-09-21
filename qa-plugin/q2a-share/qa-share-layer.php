@@ -73,7 +73,8 @@
 			$url = qa_path_html(qa_q_request($q_view['raw']['postid'], $q_view['raw']['title']), null, qa_opt('site_url'));
 
 			$code = array(
-				'facebook'=> '<iframe src="//www.facebook.com/plugins/like.php?href='.qa_path_html(qa_q_request($this->content['q_view']['raw']['postid'], $this->content['q_view']['raw']['title']), null, qa_opt('site_url')).'&amp;send=false&amp;layout=standard&amp;width=53&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=20&amp;appId=170382616390886" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:53px; height:20px;" allowTransparency="true"></iframe>',
+				/* 'facebook'=> '<iframe src="//www.facebook.com/plugins/like.php?href='.qa_path_html(qa_q_request($this->content['q_view']['raw']['postid'], $this->content['q_view']['raw']['title']), null, qa_opt('site_url')).'&amp;send=false&amp;layout=standard&amp;width=53&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=20&amp;appId=170382616390886" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:53px; height:20px;" allowTransparency="true"></iframe>', */
+				'facebook'=> '<iframe src="//www.facebook.com/plugins/like.php?href='.qa_path_html(qa_q_request($this->content['q_view']['raw']['postid'], $this->content['q_view']['raw']['title']), null, qa_opt('site_url')).'&width&layout=button_count&action=like&show_faces=true&share=true&height=21&appId=316697535153406" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:auto; height:20px;" allowTransparency="true"></iframe>',
 				
 				'twitter'=>'<a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>',
 				
