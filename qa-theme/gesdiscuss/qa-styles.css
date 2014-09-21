@@ -532,6 +532,12 @@ transition:0.5s ease;
     padding:0;
     border-radius: 3px;
 }
+
+.qa-voting:hover {
+    outline: none !important;
+    border:1px solid #4D90FE;
+}
+
 .qa-vote-buttons {
     position:relative;
     height:60px;
@@ -683,10 +689,26 @@ transition:0.5s ease;
     padding:0;
     border-radius: 3px;
 }
+/*
+.qa-a-count:hover {
+    outline: none !important;
+    border:1px solid #4D90FE;
+}
+*/
+
 .qa-a-count-zero{
     background:#ffe9d5;
     border:1px solid #ffd196;
 }
+
+/*
+.qa-a-count-zero:hover {
+    outline: none !important;
+    border:1px solid #4D90FE;
+}
+*/
+
+
 .qa-a-count-selected{
     background:#d9f5bb;
     border:1px solid #c1daa6;
