@@ -465,9 +465,81 @@ transition:0.5s ease;
 
 /* Standard form (light version - buttons only) */
 
-.qa-form-light-button {background:none; border:1px solid #fff; cursor:pointer; padding:0; margin-right:6px; font-size:10px; overflow: visible;} /* overflow:visible for IE, 1px border needed for tooltips to work more reliably in IE */
+.qa-form-light-button {
+    background:none;
+    border:1px solid #fff;
+    cursor:pointer;
+    padding:0;
+    margin-right:6px;
+    font-size:12px;
+    overflow: visible;} /* overflow:visible for IE, 1px border needed for tooltips to work more reliably in IE */
 	.qa-form-light-button {color:#666;}
 	.qa-form-light-button:hover {color:#000;}
+
+.qa-form-light-button-edit,.qa-form-light-button-retagcat {
+background:url(images/edit-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-flag {
+background:url(images/flag-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-unflag,.qa-form-light-button-clearflags {
+background:url(images/unflag-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-hide {
+background:url(images/hide-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-follow {
+background:url(images/follow-icon.png) no-repeat left center;
+padding-left:18px;
+}
+
+.qa-form-light-button-comment {
+background:url(images/comment-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-answer {
+background:url(images/answer-icon.png) no-repeat left center;
+padding-left:18px;
+color:#289e00;
+font-weight:700;
+text-transform:capitalize;
+}
+.qa-form-light-button-answer:hover {
+color:#000;
+}
+.qa-form-light-button-reshow {
+background:url(images/reshow-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-claim {
+background:url(images/claim-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-delete {
+background:url(images/delete-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-approve {
+background:url(images/approve-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-reject {
+background:url(images/reject-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-close {
+background:url(images/close-icon.png) no-repeat left center;
+padding-left:18px;
+}
+.qa-form-light-button-reopen {
+background:url(images/reopen-icon.png) no-repeat left center;
+padding-left:18px;
+}
+
 
 /* Standard form (basic version - buttons only) */
 
